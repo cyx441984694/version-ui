@@ -43,7 +43,7 @@ class RouterApp extends Component{
           <Layout >
           <Sider style={{ minHeight: "100vh"}}
               width={200}
-              collapsible
+              // collapsible
               collapsed={this.state.collapsed}
               onCollapse={this.onCollapse}
               >
